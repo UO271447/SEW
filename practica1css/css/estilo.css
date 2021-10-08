@@ -1,0 +1,46 @@
+/*Especificidad: 001*/
+body {
+  font-family: Tahoma, sans-serif;
+  color: #818181;
+  
+  background-color: #fff;
+  }
+/*Especificidad: 001*/
+h1 {
+  color: #fff;    
+  background-color:#2ADBCC; 
+  text-transform: uppercase;
+  padding:2em; 
+  text-align: center;     
+  }
+nav{
+  color: #fff;    
+  background-color:#FF7334; 
+  text-transform: uppercase;
+  padding:25px; 
+  text-align: center; 
+}
+a:link{
+	color: #fff; 
+	text-align: center;
+}
+a{
+	color: #fff; 
+	text-align: center;
+}
+a:visited{
+	color: #E8E8E8; 
+	text-align: center;
+}
+
+th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #FF7334;
+  color: white;
+}
+tr:hover {background-color: #ddd;}
+tr:nth-child(even){background-color: #f2f2f2;}
+
+
