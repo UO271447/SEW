@@ -1,0 +1,21 @@
+/* Especifidad 002*/
+nav li{ 
+
+  display:inline-block;
+
+}
+/* Especifidad 001 */
+table{
+  position:relative;
+	margin:auto;
+
+}
+/* Especifidad 001 */
+video{
+  display:block;
+  margin:auto;
+}
+img{
+	position:relative;
+    margin:auto;
+}
