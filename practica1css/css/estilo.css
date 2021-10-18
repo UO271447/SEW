@@ -101,12 +101,12 @@ main video{
 /*Especificidad: 002*/
 footer em{
   color:#ffffff;
-  background-color:#ff0000;  
+  background-color:#cb3234;  
 }
 /*Especificidad: 001*/
 footer{
   font:200 15px Arial, Helvetica, sans-serif;
-  background-color:#850000; 
+  background-color:#cb3234; 
   color: #fff;
   text-transform: uppercase;
   padding: 3px 3px;
