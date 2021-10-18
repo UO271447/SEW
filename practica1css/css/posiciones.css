@@ -1,0 +1,45 @@
+/* Especifidad 002*/
+nav li{ 
+  display:inline-block;
+}
+/* Especifidad 001 */
+table{
+  position:relative;
+	margin:auto;
+
+}
+/* Especifidad 002 */
+li img{ 
+  float:none;
+  }
+/* Especifidad 001 */
+main>video{
+  float:none;
+  display:block;
+  margin:auto;
+}
+/* Especifidad 001 */
+section{
+	display: grid;
+	grid-template-areas: 'a a a a'
+						 'b b b b'
+                         'c d e f';                         
+}
+
+/* Especifidad 100 */
+#head{
+	grid-area: a;
+}
+/* Especifidad 100 */
+#arriba{ 	
+    grid-area: b;
+}
+/* Especifidad 100 */
+#imagen1{ 	
+    grid-area: d;
+}
+/* Especifidad 100 */
+#imagen2{
+	grid-area: e;
+	
+}
