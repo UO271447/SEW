@@ -1,0 +1,40 @@
+/* Especifidad 002*/
+nav li{ 
+  display:inline-block;
+}
+/* Especifidad 001 */
+table{
+  position:relative;
+  margin:auto;
+
+}
+/* Especifidad 002 */
+li img{ 
+  float:none;
+  }
+/* Especifidad 001 */
+main>video{
+  float:none;
+  display:block;
+  margin:auto;
+}
+/* Especifidad 001 */
+section{
+	display: grid;
+	grid-template-areas: 'a a a'
+						 'b b b'
+                         'c d f';                         
+}
+
+/* Especifidad 001 */
+h2{
+	grid-area: a;
+}
+/* Especifidad 001 */
+p{ 	
+    grid-area: b;
+}
+/* Especifidad 001 */
+img{ 	
+    grid-area: d;
+}
