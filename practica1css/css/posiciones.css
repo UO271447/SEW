@@ -26,15 +26,15 @@ section{
                          'c d e f';                         
 }
 
-/* Especifidad 100 */
+/* Especifidad 001 */
 h2{
 	grid-area: a;
 }
-/* Especifidad 100 */
+/* Especifidad 001 */
 p{ 	
     grid-area: b;
 }
-/* Especifidad 100 */
+/* Especifidad 001 */
 img{ 	
     grid-area: d;
 }
