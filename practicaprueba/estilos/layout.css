@@ -1,0 +1,43 @@
+/* Hoja de estilo para dar posiciones de manera correcta a cada elemento de nuestra web*/
+
+/* Especifidad 001 */
+table{
+  position:relative;
+  margin:auto;
+
+}
+/* Especifidad 001 */
+main>video{
+  float:none;
+  display:block;
+  margin:auto;
+}
+/* Especifidad 001 */
+section{
+	display: grid;
+	grid-template-areas: 'arriba arriba arriba arriba arriba arriba arriba arriba arriba'
+						 'parrafo parrafo parrafo parrafo parrafo parrafo parrafo parrafo parrafo'
+                         'espacioiz espacioiz espacioiz imagen1 espaciocentro imagen2 espaciod espaciod espaciod';                         
+}
+
+/* Especifidad 001 */
+h2{
+	grid-area: arriba;
+}
+/* Especifidad 001 */
+p{ 	
+    grid-area: parrafo;
+}
+
+/* Especifidad 002 */
+li img{ 
+  float:none;
+  }
+/* Especifidad 011 */
+img:first-of-type{ 	
+    grid-area: imagen1;
+}
+/* Especifidad 011 */
+img:last-of-type{ 	
+    grid-area: imagen2;
+}
