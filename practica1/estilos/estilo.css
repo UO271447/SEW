@@ -1,0 +1,116 @@
+/*************************
+  Javier Lopez de Juan - UO271447
+  Hoja de estilo para dar estilos personalizados a nuestros elementos de la web.
+ *************************/
+/*Especificidad: 001*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25em;
+    line-height: 2.5;
+    color: #000000;
+    background-color:#be84a3; 
+    }
+/*Especificidad: 001*/
+h1 {
+    color: #e56db1;    
+    background-color:#000000 ; 
+    text-transform: uppercase;
+    padding:2em; 
+    text-align: center;     
+    }
+/*Especificidad: 001*/
+ nav{
+  background-color: #000000;
+  color: #be84a3;
+  padding: 0%;
+  width:100%;
+  border: 0.063em solid #e56db1 ;
+  border-radius: 0.25em;
+}
+
+/*Especificidad: 001*/
+main{
+    margin-top: 0.625em;
+	/*Hereda el color de la letra de body,por eso salta Warning*/
+    background-color: #e56db1;
+    border-radius: 0.25em;
+    padding-bottom: 0.625em;
+    margin-bottom: 0.625em;
+  }
+/*Especificidad: 001*/
+footer{
+    font:200 0.938em Arial, Helvetica, sans-serif;
+    background-color:#000; 
+    color: #be84a3;
+    text-transform: uppercase;
+    padding: 0.188em 0.188em;   
+    border-radius: 0.25em; 
+    width:30%;
+  }
+/*Especificidad: 001*/
+a{
+	color: #e56db1 ; 
+	text-align: center;
+	background-color: #000000;
+}
+/*Especificidad: 001*/
+h2 {
+  padding:2em;      
+  }
+/*Especificidad: 001*/
+th{
+background-color:#000000;  
+color: #e56db1;
+border: 0.063em solid;
+}
+/*Especificidad: 001*/
+td{
+  border: 0.063em solid #000000;
+}
+/*Especificidad: 001*/
+video{
+  float:none;
+}
+/* Especifidad 002 */
+li img{ 
+  float:none;
+  }
+/*Especificidad: 002*/
+main video{
+    border: 0.063em solid;
+    border-radius: 0.125em;
+    padding:0.063em;
+    width:95%;
+    height:95%;  
+    margin-right: 0.313em;
+  }
+/*Especificidad: 002*/
+section img{
+    border-radius: 0.125em;
+    background-color: #000 ;
+    color:#e56db1;
+    padding:0.063em;
+    width:95%;
+    height:95%;  
+  }
+/*Especificidad: 002*/
+nav a{ 
+  margin-right: 0.938em;
+  margin-left: 0.938em; 
+}
+/*Especificidad: 002*/
+li img{ 
+  margin-right: 0.313em;
+  border-radius: 0.125em;
+  color: #e56db1;
+  background-color: #000000;
+  padding:0.063em;
+  width:4%;
+  height:4%;
+  }
+/*Especificidad: 011*/
+a:hover{
+background-color: #e56db1;
+color: #000000;
+text-decoration: none;
+}
