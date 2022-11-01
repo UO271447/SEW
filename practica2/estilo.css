@@ -1,0 +1,47 @@
+/*Especifidad: 001*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25em;
+    line-height: 2.5;
+    color: #000000;
+    background-color:#be84a3;
+    }
+	
+/*Especifidad: 001*/
+h1 {
+    color: #e56db1;    
+    background-color:#000000 ; 
+    text-transform: uppercase;
+    padding:2em;    
+    }
+/*Especificidad: 001*/
+td{
+   border: 0.063em solid #000000;
+}
+/*Especificidad: 002*/
+section img{
+	grid-area:espaciocentro;
+    border-radius: 0.125em;
+    background-color: #000 ;
+    color:#e56db1;
+    padding:0.063em;
+    width:95%;
+    height:95%;  
+  }
+/*Especificidad: 001*/
+th{
+background-color:#000000;  
+color: #e56db1;
+border: 0.063em solid;
+}
+/*Especificidad: 001*/
+h2 {
+  padding:2em;      
+  }
+/* Especifidad 001 */
+section{
+	display: grid;
+	grid-template-areas: 'arriba arriba arriba arriba arriba arriba arriba arriba arriba'
+						 'despues despues despues despues despues despues despues despues despues'
+                         'espacioiz espacioiz espacioiz imagen1 espaciocentro imagen2 espaciod espaciod espaciod';                         
+}
