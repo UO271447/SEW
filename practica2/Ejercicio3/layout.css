@@ -4,6 +4,11 @@
 table{
 	grid-column:4;
 }
+/*Especificidad: 001*/
+h2{
+	grid-area:arriba;
+}
+
 /* Especifidad 001 */
 section{
 	display: grid;
