@@ -1,0 +1,23 @@
+/******** HOJA DE Posicionamiento Javier Lopez de Juan ********/
+
+/*Especificidad: 001*/
+table{
+	grid-column:4;
+}
+/* Especifidad 001 */
+section{
+	display: grid;
+	grid-template-areas: 'arriba arriba arriba arriba arriba arriba arriba arriba arriba'
+						 'despues despues despues despues despues despues despues despues despues'
+                         'espacioiz espacioiz espacioiz imagen1 espaciocentro imagen2 espaciod espaciod espaciod';                         
+}
+/*Especificidad: 002*/
+section img{
+	grid-area:espaciocentro;
+    border-radius: 0.125em;
+    background-color: #000 ;
+    color:#e56db1;
+    padding:0.063em;
+    width:95%;
+    height:95%;  
+  }
