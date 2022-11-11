@@ -14,11 +14,16 @@ h1{
     text-transform: uppercase;
     padding:2em;    
 }
+
+h2{
+	grid-area:h;
+}
+
 /* Especifidad 001 */
 section{
 	display: grid;
-	background-color:#e56db1 ;
-	grid-template-areas: 'a a a a a'
+	grid-template-areas: 'h h h h h'
+						 'a a a a a'
 						 'b b b b b'
                          'c c c c c'
 						 'd d d d d'
@@ -27,25 +32,25 @@ section{
 	justify-items:center;
 }
 
-section p:first-child{
-	grid-area:a
+p:nth-child(2){
+	grid-area:a;
 	
 }
-section p:nth-child(2){
-	grid-area:b
+p:nth-child(3){
+	grid-area:b;
 	
 }
-section p:nth-child(3){
-	grid-area:c
+p:nth-child(4){
+	grid-area:c;
 	
 }
-section p:nth-child(4){
-	grid-area:d
+p:nth-child(5){
+	grid-area:d;
 
 	
 }
-section p:last-child{
-	grid-area:e
+p:last-child{
+	grid-area:e;
 	
 }
 input[type=text]{
