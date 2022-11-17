@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora RPN</title>
+    <link rel="stylesheet" href="CalculadoraRPN.css" />
+    <script src="CalculadoraRPN.js"></script>
+</head>
+
+<body>
+    
+    <h1>Calculadora RPN</h1>
+    <p>
+    <label>Resultado</label>
+    <textarea name="textarea" rows="10" cols="50" disabled ></textarea>
+    </p>
+<section>
+<h2> Calculadora</h2>
+<p>
+<input type="button" value="MC" onclick="calculadoraRPN.clearMemory()"/>
+<input type="button" value= "MR" onclick="calculadoraRPN.mrc()"/>
+<input type="button" value= "M-" onclick="calculadoraRPN.mMenos()" />
+<input type="button" value= "M+" onclick="calculadoraRPN.mMas()" />
+<input type="button" value= "MS" onclick="calculadoraRPN.saveMemory()"/>
+</p>
+<p>
+<input type="button" value="x2" onclick="calculadoraRPN.cuadrado()"/>
+<input type="button" value="xy" onclick="calculadoraRPN.potencia()" />
+<input type="button" value="sin" id="sin" onclick="calculadoraRPN.calcularoperacion('sin')" />
+<input type="button" value="cos" id="cos" onclick="calculadoraRPN.calcularoperacion('cos')" />
+<input type="button" value="tan" id="tan" onclick="calculadoraRPN.calcularoperacion('tan')" />
+</p>
+<p>
+<input type="button" value="√" onclick="calculadoraRPN.raiz()" />
+<input type="button" value="log" onclick="calculadoraRPN.calcularoperacion('log')"/>
+<input type="button" value="C" onclick="calculadoraRPN.borrar()" />
+<input type="button" value="<x" onclick="calculadoraRPN.delet()" />
+<input type="button" value="±" onclick="calculadoraRPN.cambiosigno()" />
+</p>
+<p>
+<input type="button" value="π" onclick="calculadoraRPN.pi()" />
+<input type="button" value="7" onclick="calculadoraRPN.digitos('7')" />
+<input type="button" value="8" onclick="calculadoraRPN.digitos('8')" />
+<input type="button" value="9" onclick="calculadoraRPN.digitos('9')" />
+<input type="button" value="÷" onclick="calculadoraRPN.division('/')" />
+</p>
+<p>
+<input type="button" value="n!" onclick="calculadoraRPN.factorial()" />
+<input type="button" value="4" onclick="calculadoraRPN.digitos('4')" />
+<input type="button" value="5" onclick="calculadoraRPN.digitos('5')" />
+<input type="button" value="6" onclick="calculadoraRPN.digitos('6')" />
+<input type="button" value="x" onclick="calculadoraRPN.multiplicacion('*')" />
+
+</p>
+<p>
+<input type="button" value="↑" onclick="calculadoraRPN.Doarco()" />
+<input type="button" value="1" onclick="calculadoraRPN.digitos('1')" />
+<input type="button" value="2" onclick="calculadoraRPN.digitos('2')" />
+<input type="button" value="3" onclick="calculadoraRPN.digitos('3')" />
+<input type="button" value="-" onclick="calculadoraRPN.restar()" />
+</p>
+<p>
+
+<input type="button" value="0" onclick="calculadoraRPN.digitos('0')" />
+<input type="button" value="." onclick="calculadoraRPN.punto()" /> 
+<input type="button" value="ENTER" onclick="calculadoraRPN.enter()" />
+<input type="button" value="+" onclick="calculadoraRPN.sumar()" />
+</p>
+</section>
+</html>
