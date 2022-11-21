@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora RPN</title>
+    <link rel="stylesheet" href="CalculadoraEspecializada.css" />
+    <script src="CalculadoraEspecializada.js"></script>
+</head>
+
+<body>
+    
+    <h1>Calculadora RPN Especializada</h1>
+    
+<section>
+<h2>Calculadora</h2>
+	<p>
+    <label for="resultado">Resultado</label>
+    <textarea name="textarea" rows="10" cols="50" id="resultado" readonly disabled ></textarea>
+    </p>
+<form>
+<input type="button" value="MC" onclick="calculadoraEspecializada.clearMemory()"/>
+<input type="button" value= "MR" onclick="calculadoraEspecializada.mrc()"/>
+<input type="button" value= "M-" onclick="calculadoraEspecializada.mMenos()" />
+<input type="button" value= "M+" onclick="calculadoraEspecializada.mMas()" />
+<input type="button" value= "MS" onclick="calculadoraEspecializada.saveMemory()"/>
+</form>
+<form>
+<input type="button" value="x2" onclick="calculadoraEspecializada.cuadrado()"/>
+<input type="button" value="xy" onclick="calculadoraEspecializada.potencia()" />
+<input type="button" value="sin" id="sin" onclick="calculadoraEspecializada.calcularoperacion('sin')" />
+<input type="button" value="cos" id="cos" onclick="calculadoraEspecializada.calcularoperacion('cos')" />
+<input type="button" value="tan" id="tan" onclick="calculadoraEspecializada.calcularoperacion('tan')" />
+</form>
+<form>
+<input type="button" value="√" onclick="calculadoraEspecializada.raiz()" />
+<input type="button" value="log" onclick="calculadoraEspecializada.calcularoperacion('log')"/>
+<input type="button" value="C" onclick="calculadoraEspecializada.borrar()" />
+<input type="button" value="<x" onclick="calculadoraEspecializada.delet()" />
+<input type="button" value="±" onclick="calculadoraEspecializada.cambiosigno()" />
+</form>
+<form>
+<input type="button" value="π" onclick="calculadoraEspecializada.pi()" />
+<input type="button" value="7" onclick="calculadoraEspecializada.digitos('7')" />
+<input type="button" value="8" onclick="calculadoraEspecializada.digitos('8')" />
+<input type="button" value="9" onclick="calculadoraEspecializada.digitos('9')" />
+<input type="button" value="÷" onclick="calculadoraEspecializada.division('/')" />
+</form>
+<form>
+<input type="button" value="n!" onclick="calculadoraEspecializada.factorial()" />
+<input type="button" value="4" onclick="calculadoraEspecializada.digitos('4')" />
+<input type="button" value="5" onclick="calculadoraEspecializada.digitos('5')" />
+<input type="button" value="6" onclick="calculadoraEspecializada.digitos('6')" />
+<input type="button" value="x" onclick="calculadoraEspecializada.multiplicacion('*')" />
+
+</form>
+<form>
+<input type="button" value="↑" onclick="calculadoraEspecializada.Doarco()" />
+<input type="button" value="1" onclick="calculadoraEspecializada.digitos('1')" />
+<input type="button" value="2" onclick="calculadoraEspecializada.digitos('2')" />
+<input type="button" value="3" onclick="calculadoraEspecializada.digitos('3')" />
+<input type="button" value="-" onclick="calculadoraEspecializada.restar()" />
+</form>
+<form>
+<input type="button" value="Media" onclick="calculadoraEspecializada.media()" />
+<input type="button" value="Moda" onclick="calculadoraEspecializada.moda()" /> 
+<input type="button" value="MAna" onclick="calculadoraEspecializada.mediana()" />
+<input type="button" value="Var" onclick="calculadoraEspecializada.varianza()" />
+<input type="button" value="DESV" onclick="calculadoraEspecializada.desviaciontipica()" />
+</form>
+<form>
+<input type="button" value="0" onclick="calculadoraEspecializada.digitos('0')" />
+<input type="button" value="." onclick="calculadoraEspecializada.punto()" /> 
+<input type="button" value="ENTER" onclick="calculadoraEspecializada.enter()" />
+<input type="button" value="+" onclick="calculadoraEspecializada.sumar()" />
+</form>
+</section>
+</html>
