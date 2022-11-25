@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Ejercicio7</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio-07.js"></script>
+	<link rel="stylesheet" href="Ejercicio-07.css" />
+</head>
+
+
+<body>
+    <h1>h1</h1>
+    <h2>h2</h2>
+    <h3>h3</h3>
+    <p>Parrafo 1.</p>
+    <p>Parrafo 2.</p>
+
+    <table>
+        <thead>
+          <tr>
+        <th>VideoJuego</th>
+        <th>Ventas Septiembre</th>
+        <th>Ventas Octubre</th>
+        <th>Ventas Noviembre</th>
+        <th>Ventas Diciembre</th>
+        <th>Total</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>ModernWarfare2</td>
+        <td>80</td>
+        <td>70</td>
+        <td>69</td>
+        <td>60</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>God Of War Ragnarok</td>
+        <td>70</td>
+        <td>65</td>
+        <td>52</td>
+        <td>49</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Spiderman Miles-Morales</td>
+        <td>60</td>
+        <td>56</td>
+        <td>45</td>
+        <td>36</td>
+        <td></td>
+    </tr>
+</tbody>
+	<tfoot>
+    <tr>
+         <td>Total</td>
+         <td></td>
+         <td></td>
+         <td></td>
+		 <td></td>
+         <td></td>
+        </tr>
+
+    </tfoot>
+</table>
+<section>
+	<h4>Botones</h4>
+	<label for="campoH1">Nuevo valor para el título h1:</label>
+    <input type="text" id="campoH1">
+    <input type="button" value= "Cambiar título h1" onclick="funcion.cambiarh1('campoH1')"/>
+
+	<label for="campoP1">Nuevo valor para el párrafo 1:</label>
+    <input type="text" id="campoP1"/>
+	<input type="button" value="Cambiar párrafo 1" onclick="funcion.cambiarp1('campoP1')"/>
+	<input type="button" value="Añadir elemento con append" onclick="funcion.anadirAppend('p')"/>
+    <input type="button" value="Añadir elemento con prepend" onclick="funcion.anadirPrepend('p')"/>
+	<input type="button" value="Añadir elemento con before" onclick="funcion.anadirBefore('h3')"/>
+    <input type="button" value="Añadir elemento con after" onclick="funcion.anadirAfter('p')"/>
+	<input type="button" value="Eliminar elemento p" onclick="funcion.eliminar('p')"/>
+	<input type="button" value="Eliminar elemento h3" onclick="funcion.eliminar('h3')"/>
+	<input type="button" value="Recorrer todos los elementos" onclick="funcion.recorrerTodosLosElementos()"/>
+	<input type="button" value="Calcular Filas y Columnas" onclick="funcion.sumarFilasCol()"/>
+</section>
+</body>
+
+    
+
+</html>
