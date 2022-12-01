@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>FullScreen,Canvas,UploadImage</title>
+<link rel="stylesheet" href="Ejercicio-14.css"/>
+<script src="Ejercicio-14.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+<h1>FullScreen,Canvas,UploadImage</h1>
+	<p>Seleccione archivo</p>
+	
+	<section>
+	<h2>Subir una imagen</h2>
+	<form>
+	<label for="imagen">Seleccione archivos</label>
+	<input id="imagen" type="file" onchange="archivo.cargar()"/>
+	<img src="imagenes/Spiderman.jpg" alt="Spiderman"/>
+	</form>
+	</section>
+	<h2>Introduce texto en el canvas</h2>
+	<form>
+	<label for="texto"> Escribe aqui:</label>
+	<input type='text' id='texto'/>
+	<input type="button" value= "mostrarTexto" onclick="archivo.canvas()" />
+	<input type="button" value= "borrar" onclick="archivo.borrarCanvas()" />
+	</form>
+	<canvas>
+		No canvas
+	</canvas>
+	
+</body>
+
+</html>
