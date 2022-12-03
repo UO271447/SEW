@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+	<link rel="shortcut icon" href="#">
+    <title>Tarea 6</title>
+    <link rel="stylesheet" href="Ejercicio11.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    
+    <h1>Tarea 6</h1>
+	<input type="button" value="Mostrar mi posicion actual" onclick="geolocalizacion.mapaDinamico()">
+    <label for="latitud">Latitud</label>
+    <input type='text' id='latitud' />
+    <label for="longitud">Longitud</label>
+    <input type='text' id='longitud' />
+    <input type="button" value="Buscar" onclick="geolocalizacion.buscar()">
+	<input type="button" value="Mostrar Gasolinera de Gijón con gasolina de 95 más barata" onclick="geolocalizacion.MostrarDatos()">
+    <main></main>
+	<script src="Ejercicio11.js"></script>
+	<script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYHZTgfH6ayCE4N4sZgJpZHUBVFLcglVg"></script>
+</body>
+</html>
