@@ -1,0 +1,22 @@
+
+/*Especificidad: 001*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25em;
+    line-height: 2.5;
+    color: #000000;
+    background-color:#be84a3;
+}
+/*Especificidad: 001*/
+h1 {
+    color: #e56db1;    
+    background-color:#000000 ; 
+    text-transform: uppercase;
+    padding:2em; 
+	grid-area:arriba;
+}
+/*Especificidad: 001*/
+main{
+    height: 60em;
+    width:100%;
+}

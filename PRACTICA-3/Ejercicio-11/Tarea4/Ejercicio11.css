@@ -1,0 +1,25 @@
+/*Especificidad: 001*/
+body {
+    font: 400 20px Tahoma, sans-serif;
+    line-height: 2;
+    color:#000000;
+    background-color: #be84a3;
+    display:grid;
+	grid-template-areas: 'arriba arriba arriba arriba arriba'
+						 'x x x x x'
+						 's s s s s';
+}
+/*Especificidad: 001*/
+h1 {
+    color: #e56db1;    
+    background-color:#000000 ; 
+    text-transform: uppercase;
+    padding:2em; 
+	grid-area:arriba;
+}
+/*Especificidad: 001*/
+main{
+   
+   width:40em; 
+   height:40em;
+  }

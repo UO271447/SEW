@@ -1,0 +1,397 @@
+{
+	"type":"FeatureCollection",
+    "name":"RedSocial",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.88419,
+                    42.4613,
+                    819
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de nacimiento de Javier \t",
+                "name": "Lugar de nacimiento de Javier \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.66152,
+                    43.53573,
+                    423
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de residencia de Javier \t",
+                "name": "Lugar de residencia de Javier \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -31.18333,
+                    -59.93333,
+                    523
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de nacimiento de Daniel \t",
+                "name": "Lugar de nacimiento de Daniel \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -31.18333,
+                    -59.93333,
+                    523
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de residencia de Daniel \t",
+                "name": "Lugar de residencia de Daniel \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -31.18333,
+                    -59.93333,
+                    523
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de nacimiento de Oscar \t",
+                "name": "Lugar de nacimiento de Oscar \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -6.6593165,
+                    39.0843279,
+                    160
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de residencia de Oscar \t",
+                "name": "Lugar de residencia de Oscar \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.661695,
+                    43.391049,
+                    213
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de nacimiento de Alex \t",
+                "name": "Lugar de nacimiento de Alex \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.92483,
+                    43.55473,
+                    160
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de residencia de Alex \t",
+                "name": "Lugar de residencia de Alex \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -31.18333,
+                    -59.93333,
+                    523
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de nacimiento de Laura \t",
+                "name": "Lugar de nacimiento de Laura \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -6.6593165,
+                    39.0843279,
+                    160
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de residencia de Laura \t",
+                "name": "Lugar de residencia de Laura \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.66152,
+                    43.53573,
+                    423
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de nacimiento de Sergio \t",
+                "name": "Lugar de nacimiento de Sergio \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -6.24889,
+                    53.33306,
+                    321
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de residencia de Sergio \t",
+                "name": "Lugar de residencia de Sergio \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -8.64435,
+                    42.431,
+                    523
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de nacimiento de Miguel \t",
+                "name": "Lugar de nacimiento de Miguel \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -8.64435,
+                    42.431,
+                    523
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de residencia de Miguel \t",
+                "name": "Lugar de residencia de Miguel \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.66152,
+                    43.53573,
+                    423
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de nacimiento de Pablo \t",
+                "name": "Lugar de nacimiento de Pablo \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.66152,
+                    43.53573,
+                    423
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de residencia de Pablo \t",
+                "name": "Lugar de residencia de Pablo \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.829357,
+                    43.161303,
+                    219
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de nacimiento de Laura \t",
+                "name": "Lugar de nacimiento de Laura \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.661695,
+                    43.391049,
+                    213
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de residencia de Laura \t",
+                "name": "Lugar de residencia de Laura \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.66152,
+                    43.53573,
+                    423
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de nacimiento de Simon \t",
+                "name": "Lugar de nacimiento de Simon \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.88419,
+                    42.4613,
+                    819
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de residencia de Simon \t",
+                "name": "Lugar de residencia de Simon \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -8.64435,
+                    42.431,
+                    523
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de nacimiento de Paula \t",
+                "name": "Lugar de nacimiento de Paula \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.92483,
+                    43.55473,
+                    160
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de residencia de Paula \t",
+                "name": "Lugar de residencia de Paula \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.92483,
+                    43.55473,
+                    160
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de nacimiento de Lidia \t",
+                "name": "Lugar de nacimiento de Lidia \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.66152,
+                    43.53573,
+                    423
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de residencia de Lidia \t",
+                "name": "Lugar de residencia de Lidia \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.829357,
+                    43.161303,
+                    219
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de nacimiento de Alejandro \t",
+                "name": "Lugar de nacimiento de Alejandro \t"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.661695,
+                    43.391049,
+                    213
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de residencia de Alejandro \t",
+                "name": "Lugar de residencia de Alejandro \t"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}
