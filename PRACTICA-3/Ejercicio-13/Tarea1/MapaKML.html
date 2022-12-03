@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>MapaKML</title>
+<link rel="stylesheet" href="MapaKML.css"/>
+<script src="MapaKML.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYHZTgfH6ayCE4N4sZgJpZHUBVFLcglVg"></script>
+</head>
+<body>
+<h1>Cargar KML</h1>
+	<p>Seleccione archivo</p>
+	<form>
+	<label for="archivos">Seleccionar archivos</label>
+	<input  id= "archivos" type="file" onchange="archivo.cargar(this.files);">
+	</form>
+	<main></main>
+</body>
+
+</html>
