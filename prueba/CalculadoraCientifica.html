@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Calculadora Cientifica</title>
+    <link rel='stylesheet' href='CalculadoraCientifica.css' />
+</head>
+
+<body>
+    
+    <h1>Calculadora Cientifica</h1>
+<form action='#' method='post' name='Calculadoraientifica.php'>
+	<h2>Calculadora</h2>
+	<p>
+    <label for='resultado'>Resultado</label>
+    <input type='text' id='resultado' readonly disabled value=".$calculadora->getResultado()."  />
+    </p>
+<p>
+<input type='submit' name='DEG' value=".$calculadora->getRad()." />
+<input type='submit' name='HYP' value= 'HYP' />
+<input type='submit' name='FE' value= 'F-E'  />
+</p>
+<p>
+	<input type='submit' name='mc' value='MC' />
+	<input type='submit' name='mrc' value= 'MR' />
+	<input type='submit' name='mmenos' value= 'M-' />
+	<input type='submit' name='mmas' value= 'M+'  />
+	<input type='submit' name='ms' value= 'MS' />
+</p>
+<p>
+	<input type='submit' name='cuadrado' value='x2' />
+	<input type='submit' name='potencia' value='xy' />
+	<input type='submit' name='seno' value=".$calculadora->getSin()."/>
+	<input type='submit' name='coseno' value=".$calculadora->getCos()."/>
+	<input type='submit' name='tangente' value=".$calculadora->getTan()."/>
+</p>
+<p>
+	<input type='submit' name='raiz' value='√'  />
+	<input type='submit' name='potenciade10' value='10x'  />
+	<input type='submit' name='log' value='log'  />
+	<input type='submit' name='Exp' value='Exp'  />
+	<input type='submit' name='modulo' value='Mod'  />
+</p>
+<p>
+	<input type='submit' name='shift' value='↑' />
+	<input type='submit' name='CE' value='CE'  />
+	<input type='submit' name='C' value='ON/C' />
+	<input type='submit' name='delete' value='<x'  />
+	<input type='submit' name='division' value='÷'  />
+</p>
+<p>
+	<input type='submit' name='pi' value='π'  />
+	<input type='submit' name='boton7' value='7'  />
+	<input type='submit' name='boton8' value='8'  />
+	<input type='submit' name='boton9' value='9' />
+	<input type='submit' name='multi' value='x' />
+</p>
+<p>
+	<input type='submit' name='factorial' value='n!'  />
+	<input type='submit' name='boton4' value='4'  />
+	<input type='submit' name='boton5' value='5'  />
+	<input type='submit' name='boton6' value='6' />
+	<input type='submit' name='menos' value='-'  />
+</p>
+<p>
+	<input type='submit' name='cambiosigno' value='+/-'  />
+	<input type='submit' name='boton1' value='1'  />
+	<input type='submit' name='boton2' value='2'  />
+	<input type='submit' name='boton3' value='3'  />
+	<input type='submit' name='mas' value='+'  />
+</p>
+<p>
+	<input type='submit' name='parentesis' value='('  />
+	<input type='submit' name='parentesis' value=')'  />
+	<input type='submit' name='boton0' value='0'  />
+	<input type='submit' name='punto' value=','  /> 
+	<input type='submit' name='igual' value='='  />
+</p>
+</form>
+</body>
+</html> 
