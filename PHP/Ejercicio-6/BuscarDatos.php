@@ -1,0 +1,64 @@
+<?php include 'Ejercicio6.php';
+echo"
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+    <meta charset='UTF-8'/>
+    <title>Base de Datos</title>
+    <link rel='stylesheet' href='Ejercicio6.css'/>
+
+</head>
+<body>
+<header>
+<h1>Base de Datos</h1>   
+</header>
+<nav >
+        <a href='Indice.php' accesskey='i'>Inicio</a>
+        <a href='InsertarDatos.php' accesskey='d'>Insertar Datos a la Tabla</a>   
+        <a href='BuscarDatos.php' accesskey='b'>Buscar Datos</a>
+        <a href='ModificarDatos.php' accesskey='m'>Modificar Datos</a>
+        <a href='EliminarDatos.php' accesskey='e'>Eliminar Datos</a>
+        <a href='ExportarDatos.php' accesskey='x'>Exportar Datos</a>
+        <a href='ImportarDatos.php' accesskey='r'>Importar Datos</a>
+        <a href='GenerarInforme.php' accesskey='g'>Generar Informe</a>
+</nav>
+    <form action='#' method='post' name='Ejercicio6.php'>
+		<h2>Buscar Datos</h2>
+		<fieldset>
+		<legend>Modifica los datos segun la columna elegida</legend>
+		<input type='radio' id='id' name='buscar' value='Id' checked />
+		<label for='id'>Id</label>
+		<input type='radio' id='dni' name='buscar' value='Dni'/>
+		<label for='dni'>Dni</label>
+		<input type='radio' id='nombre' name='buscar' value='Nombre' />
+		<label for='nombre'>Nombre</label>
+		<input type='radio' id='apellido' name='buscar' value='Apellidos'/>
+		<label for='apellido'>Apellidos</label>
+		<input type='radio' id='email' name='buscar' value='Email' />
+		<label for='email'>Email</label>
+		<input type='radio' id='telefono' name='buscar' value='Telefono'/>
+		<label for='telefono'>Telefono</label>
+		<input type='radio' id='edad' name='buscar' value='Edad' />
+		<label for='edad'>Edad</label>
+		<input type='radio' id='sex' name='buscar' value='Sexo'/>
+		<label for='sex'>Sexo</label>
+		<input type='radio' id='pericia' name='buscar' value='Pericia' />
+		<label for='pericia'>Pericia</label>
+		<input type='radio' id='tiempo' name='buscar' value='Tiempo'/>
+		<label for='tiempo'>Tiempo</label>
+		<input type='radio' id='correc' name='buscar' value='Correcto' />
+		<label for='correc'>Correcto</label>
+		<input type='radio' id='coment' name='buscar' value='Comentarios'/>
+		<label for='coment'>Comentarios</label>
+		<input type='radio' id='prop' name='buscar' value='Propuestas'/>
+		<label for='prop'>Propuestas</label>
+		<input type='radio' id='val' name='buscar' value='Valoracion'/>
+		<label for='val'>Valoracion</label>
+		</fieldset>
+	<label for='buscarr'>Buscar</label>
+    <input type='text' id='buscarr' name='buscarr' value=''/>
+	<input type='submit' name='buscarD' value= 'Buscar Datos'/>
+	<p>".$baseDatos->getResultadoConsulta()."</p>
+	</form>
+</body>
+</html>";?>
